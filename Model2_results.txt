@@ -1,0 +1,36 @@
+		(1)	(2)	(3)
+VARIABLES	LABELS	MGNREGA	MGNREGA	MGNREGA
+				
+st	ST	0.0819***	0.0682***	0.0485***
+		(0.0126)	(0.0127)	(0.0139)
+sc	SC	0.0977***	0.0832***	0.0634***
+		(0.0124)	(0.0117)	(0.0114)
+obc	OBC	0.0282***	0.0252***	0.0100
+		(0.0076)	(0.0077)	(0.0073)
+muslim	Muslim	-0.0077	-0.0158*	-0.0284***
+		(0.0105)	(0.0091)	(0.0093)
+bottom_asset	Bottom 20 Percentile (Assets)	0.0128		
+		(0.0101)		
+bottom2_asset	Bottom 40 Percentile (Assets)	0.0272***		
+		(0.0072)		
+bottom3_asset	Bottom 60 Percentile (Assets)	0.0456***		
+		(0.0065)		
+bottom_asset_sc_st	Bottom 20 Percentile x SC/ST		0.0734***	
+			(0.0169)	
+bottom_asset_obc	Bottom 20 Percentile x OBC		0.0227**	
+			(0.0092)	
+bottom_asset_muslim	Bottom 20 Percentile x Muslim		0.0387	
+			(0.0284)	
+bottom2_asset_sc_st	Bottom 40 Percentile x SC/ST			0.0804***
+				(0.0123)
+bottom2_asset_obc	Bottom 40 Percentile x OBC			0.0466***
+				(0.0077)
+bottom2_asset_muslim	Bottom 40 Percentile x Muslim			0.0483**
+				(0.0188)
+Constant	Constant	0.0619***	0.1057***	0.1046***
+		(0.0074)	(0.0060)	(0.0060)
+				
+Observations		79,848	79,848	79,848
+R-squared		0.1517	0.1471	0.1500
+Robust standard errors in parentheses				
+*** p<0.01, ** p<0.05, * p<0.1				

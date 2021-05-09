@@ -1,0 +1,136 @@
+{\rtf1\ansi\deff0 {\fonttbl{\f0\fnil Garamond;}}
+{\info {\author .}{\company .}{\title .}}
+\deflang1033\plain\fs20
+{\footer\pard\qc\plain\f0\fs20\chpgn\par}
+{
+{
+{\b\qc\line Descriptive Statistics }{\par}
+\trowd\trgaph108\trleft-108\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx2400\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx3200\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx4600\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx6000\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx7400\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs\cellx8800
+\ql { {Variable}}\cell
+\qr { {Obs}}\cell
+\qr { {Mean}}\cell
+\qr { {Std. Dev.}}\cell
+\qr { {Min}}\cell
+\qr { {Max}}\cell
+\row
+\trowd\trgaph108\trleft-108\cellx2400\cellx3200\cellx4600\cellx6000\cellx7400\cellx8800
+\ql { {st}}\cell
+\qr {{142568}}\cell
+\qr {{.112}}\cell
+\qr {{.316}}\cell
+\qr {{0}}\cell
+\qr {{1}}\cell
+\row
+\ql { {sc}}\cell
+\qr {{142568}}\cell
+\qr {{.227}}\cell
+\qr {{.419}}\cell
+\qr {{0}}\cell
+\qr {{1}}\cell
+\row
+\ql { {obc}}\cell
+\qr {{142568}}\cell
+\qr {{.407}}\cell
+\qr {{.491}}\cell
+\qr {{0}}\cell
+\qr {{1}}\cell
+\row
+\ql { {muslim}}\cell
+\qr {{142568}}\cell
+\qr {{.109}}\cell
+\qr {{.311}}\cell
+\qr {{0}}\cell
+\qr {{1}}\cell
+\row
+\ql { {female}}\cell
+\qr {{142568}}\cell
+\qr {{.504}}\cell
+\qr {{.5}}\cell
+\qr {{0}}\cell
+\qr {{1}}\cell
+\row
+\ql { {female sc st}}\cell
+\qr {{142568}}\cell
+\qr {{.171}}\cell
+\qr {{.377}}\cell
+\qr {{0}}\cell
+\qr {{1}}\cell
+\row
+\ql { {female obc}}\cell
+\qr {{142568}}\cell
+\qr {{.205}}\cell
+\qr {{.404}}\cell
+\qr {{0}}\cell
+\qr {{1}}\cell
+\row
+\ql { {primary educ}}\cell
+\qr {{142568}}\cell
+\qr {{.066}}\cell
+\qr {{.248}}\cell
+\qr {{0}}\cell
+\qr {{1}}\cell
+\row
+\ql { {primary educ sc st}}\cell
+\qr {{142568}}\cell
+\qr {{.028}}\cell
+\qr {{.164}}\cell
+\qr {{0}}\cell
+\qr {{1}}\cell
+\row
+\ql { {primary educ obc}}\cell
+\qr {{142568}}\cell
+\qr {{.026}}\cell
+\qr {{.158}}\cell
+\qr {{0}}\cell
+\qr {{1}}\cell
+\row
+\ql { {middle educ}}\cell
+\qr {{142568}}\cell
+\qr {{.25}}\cell
+\qr {{.433}}\cell
+\qr {{0}}\cell
+\qr {{1}}\cell
+\row
+\ql { {middle educ sc st}}\cell
+\qr {{142568}}\cell
+\qr {{.092}}\cell
+\qr {{.289}}\cell
+\qr {{0}}\cell
+\qr {{1}}\cell
+\row
+\ql { {middle educ obc}}\cell
+\qr {{142568}}\cell
+\qr {{.107}}\cell
+\qr {{.31}}\cell
+\qr {{0}}\cell
+\qr {{1}}\cell
+\row
+\ql { {bottom asset}}\cell
+\qr {{142568}}\cell
+\qr {{.209}}\cell
+\qr {{.406}}\cell
+\qr {{0}}\cell
+\qr {{1}}\cell
+\row
+\ql { {bottom asset sc st}}\cell
+\qr {{142568}}\cell
+\qr {{.076}}\cell
+\qr {{.266}}\cell
+\qr {{0}}\cell
+\qr {{1}}\cell
+\row
+\ql { {bottom asset obc}}\cell
+\qr {{142568}}\cell
+\qr {{.089}}\cell
+\qr {{.284}}\cell
+\qr {{0}}\cell
+\qr {{1}}\cell
+\row
+}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx8800{}\cell
+\row}
+
+
+\writepositionforappend
+}}

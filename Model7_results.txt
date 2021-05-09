@@ -1,0 +1,38 @@
+		(1)	(2)	(3)
+VARIABLES	LABELS	Ln(MGNREGA Income + 1)	Ln(MGNREGA Income + 1)	Ln(MGNREGA Income + 1)
+				
+st	ST	1.6316***	1.8885***	1.8714***
+		(0.2774)	(0.2724)	(0.2744)
+sc	SC	1.8583***	2.0900***	2.0491***
+		(0.2321)	(0.2727)	(0.2577)
+obc	OBC	0.5873***	0.7514***	0.6790***
+		(0.1427)	(0.1553)	(0.1497)
+muslim	Muslim	-0.2751	-0.0563	-0.0655
+		(0.2197)	(0.2230)	(0.1938)
+primary_educ	Primary Educated	0.0126		
+		(0.3185)		
+middle_educ	Middle Educated	0.0014		
+		(0.1647)		
+sec_educ	Secondary Educated	-0.3742**		
+		(0.1639)		
+post_secondary_educ	Post Secondary Educated	-0.6716***		
+		(0.1703)		
+primary_educ_sc_st	Primary Educated x SC/ST		0.5434	
+			(0.5809)	
+primary_educ_obc	Primary Educated x OBC		0.0685	
+			(0.3004)	
+primary_educ_muslim	Primary Educated x Muslim		-0.5736	
+			(0.3591)	
+middle_educ_sc_st	Middle Educated x SC/ST			0.2578
+				(0.3532)
+middle_educ_obc	Middle Educated OBC			0.2638*
+				(0.1362)
+middle_educ_muslim	Middle Educated Muslim			-0.1570
+				(0.4009)
+Constant	Constant	1.3621***	0.9217***	0.9223***
+		(0.1531)	(0.1328)	(0.1308)
+				
+Observations		22,697	22,697	22,697
+R-squared		0.2758	0.2680	0.2681
+Robust standard errors in parentheses				
+*** p<0.01, ** p<0.05, * p<0.1				

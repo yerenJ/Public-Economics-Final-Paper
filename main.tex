@@ -1,0 +1,752 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{rotating}
+\usepackage{lscape}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,allcolors=blue}
+\usepackage{amsmath,bm,eqparbox}
+
+\usepackage{csquotes}
+\usepackage{amsmath}
+\usepackage{censor}
+
+\title{\textbf{Trends of Participation in Mahatma Gandhi National Rural Employment Guarantee Act}}
+\author{{ Ananya Shamra} \and { Nehal Khurana}  \and { Nikhil Raj} \\ \and {Shourya Marwaha} \and{Yeshuraj Joshi} \\ \\ {\and} 
+{\text{Submitted to:}} \\
+{Prof. Bhanu Gupta\footnote{Submitted to Professor Bhanu Gupta as a part of the course: Public Economics (ECO-3630)}}}
+
+\date{9 May 2021}
+
+\begin{document}
+
+
+\maketitle
+\begin{abstract}
+    This paper examines differences in participation rates of MGNREGA for differenct socio-economic groups in rural India. We investigate the role of caste, education and assets on participation in MGREGA. We employ India Human Development Survey-II (IHDS-II) (2011-12) data to empirically study this relationship. We conduct a basic multiple variable regression model on two different dependent variables – \emph{MGNREGA} (whether an individual is employed in MGNREGA) , and \emph{ln(MGREGA Income + 1)} (for intensive margin) – and find disparity between different socio-economic groups mainly Scheduled Tribe/Scheduled Castes, OBCs and Muslims in their particiaption in MGNREGA after controlling for differences in various attributes (Education and Assets). 
+\end{abstract}
+\newpage
+
+
+\section{Introduction}
+\label{intro}
+Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) (2005) is one of the flagship programs of the Ministry of Rural Development, Government of India. It aims to provide guaranteed wage employment in the scarcity of employment, it directly impacts rural poverty and unemployment, the program also enforces a minimum 33\% participation for women. The program came into effects in 2 phases of implementation. As the program provides 100 days of employment to households to adult members willing to do unskilled manual work. 
+\\\\
+MGNREGA aims to create a sustainable rural supplemental income by employing mostly seasonal income earners in rural areas, the program creates durable assets (largely public works) and this is expected to result in an increased income base. Furthermore, the program promotes transparency, accountability and decentralization of governance to local panchayats, these local units then devise the best use of the program’s available local labor force to attain sustainable local rural development by making durable assets. This provides unskilled rural wage earners employment and greatly benefits the local economy. Aggregate income has increased since the deployment of the program \footnote{ Sharma et al 2015}. 
+\\
+\\
+\\
+MGNREGA is a step in a new direction, completely at odds with previous government welfare and employment programs and this occurs primarily because at the base of it, MGNREGA believes in the right to work and because employment is treated as a right, it therefore becomes incumbent upon the state to jump in to provide necessary alternatives to sustain rural wages. The program’s demand driven nature ensures that there are ample employment opportunities presented for the participants and as most of participants are rural unskilled laborers who are primarily involved in seasonal agricultural employment this program serves as an augmented income. The program has transformed the rural economy by increasing worker productivity as well as improving consumption, nutrition and a host of different human development index parameters. Households are provided with employment under the program which has been increasing at a rapid pace which in-turn has increased the coverage of this welfare scheme. Increased participation of women and the accommodation of women (via crushes and similar programs) has ensured an equitable outcome towards empowering rural women. MGNREGA’s progressive attributes mainly are legal guaranteed wage, reservation for women and marginalized communities from the most socio-economically underdeveloped rural areas of the country along with several amenities provided to the workers. The program provides a sustainable rural wage to all the households under the scheme. Though rural unskilled wage earners (often landless seasonal agricultural labourers) are the primary target, the effects are wide reaching in the rural economy particularly for the marginal communities and small farmers.
+However, there are also criticisms of the programmes which range from massive funding required which takes a toll on the government revenue and public money. This paper aims to study the composition of participants, the beneficiaries of the employment generated from MGNREGA.
+\\
+\\
+Our main aim is to study the trends and composition of participation in MGNREGA by different socio-economic groups in rural India. This study of trends becomes extremely relevant when we are trying to understand the impact of welfare policies of the government and do they actually help the people they intended for? 
+\\
+MGNREGA's target participants were mainly unskilled rural wage workers who usually work in agricultural and due to its seasonal nature of demand for labor, often rural wage workers are left with no work during off-agricultural seasons. This program was an attempt to provide rural wage earners with sustenance level income throughout the year. If we closely observe the trends of participation then we can try to gauge whether the program has been successful in at least reaching the target participants.
+
+
+\section{Literature Review}
+\label{lit}
+Joshi et. al (2014) argues that with MGNREGRA’s self selection criteria, the people who need to earn a minimum statutory wage are eligible for employment. Though the program directly affects the bottom quintile (in terms of assets) of the population, it has universal coverage as any household can participate, however it's mostly utilized by the poorer section of the rural population or people with no employable educational qualification. Although, the program has proved effective in aiding rural poverty particularly in the most vulnerable communities. They find a significant negative correlation between education and participation in the program. 
+\\
+\\
+Furthermore, Women’s participation has been rapidly increasing already above the mandated minimum rate as MGNREGA compared to other casual work alternatives pays much better wages, along with crèches and similar facilities. The program has also seen an uptick in the rural upper caste poor who have also adopted fairly well to the program. MGNREGA is not overshadowed by caste issues at any significant level and thus provides a valuable platform for more poverty targeting measures.(Khera \& Nayak, 2009) 
+\\
+\\
+Ravi and Engler (2015) note that there has been a significant impact on the rural annual income, consumption, equality, livestock and assets. The program is effective in providing consistent consumption to rural households in between peak agricultural season and lean seasons in a fairly sustainable approach. Infact, the program works more as a risk-mitigating factor and is considered to be a social safety net rather than as employment. Furthermore, food securities and savings have also improved in rural households along with heath. Dasgupta (2013) notes that MGNREGA actually helps mitigate and avert nutritional shocks in early childhood in the participating households, the program has even helped in reducing child labor. MGNREGA has substantially affected Human development indicators particularly in rural households.  
+\\
+\\
+Coming to the board macroeconomic impact of MGNREGA, Sharma et al. (2017) argues that the program has indirect effects on rural income distribution, general non-program generated employment opportunity, output and revenue through a multiplier to the government.  \\
+Additionally, MGNREGA had a positive impact on real and nominal GDP at base rice, there has been an increase in the supply of semi-skilled and unskilled labor in the economy, consumer price index is negatively impacted, household budgets  and consumption has increased. Although the program has also negatively impacted the wages of semi-skilled labor, on the macroeconomic level, MGNREGA has been tremendously beneficial.
+\\
+\\
+MGNREGA has been studied under a gender economics perspective by Bhattarcharyya and Vauquline (2013), they argue that the MGNREGA program can be a very effective livelihood source for rural women and help in climbing social ladder. More inclusive MGNREGA for women might also result in higher wages for women and equality. As the program is considered by women to be working for the government rather than the private sector it proves a rare parity between the genders as the wages are the same for everyone and there are several added benefits to the program including primary first aid and child care. It overall functions as a dignified work environment for rural women.
+\\
+However, Kannan and Raveendran (2012) and Aggarwal (2016) argue that the program is also ridden with several problematic aspects, the program has only made marginal impact on the living standard of the rural population, there is lack of accountability, and a weak grievance redressal system has lead to in-efficient functioning of the program. Creating employment opportunities for rural women are severely limited and a single program cannot alleviate the problems. Our paper will attempt to identify the key demographics that are affected by MGNREGA.
+
+\section{Data and Descriptive Statistics}
+\label{data}
+
+The data for this paper comes from India Human Development Survey-II (IHDS-II). IHDS-II conducted in 2011-12 is a nationally representative survey of 42,152 households in 1,503 villages and 971 urban neighborhoods across India. The data consists of re-interviews with the household from IHDS-I (2004-5), The survey covers broad topics ranging from education, health, socio-economic status, gender, infrastructure, wages and panchayats. This is the only data set available publicly that covers MGNREGA program, its participants and their socio-economic status and this makes IHDS-II a great data set to study the trends of participation in MGNREGA. We have excluded the data from IHDS-I as it did not cover MGNREGA.   
+\\\\
+In this paper, we will be using IHDS to consider the various trends that emerge in MGNREGA employment and the beneficiaries of the program as MGNREGA also has several associated benefits as we have seen in \hyperref[lit]{Section II}. The data is from 2011-12 and has over 79,848 observations (after accounting from missed values in the assessed parameters) measuring several parameters. The data has been trimmed down by keeping only the respondents from rural areas as MGNREGA is mainly targeted at rural unskilled wage workers, furthermore we have excluded individuals with ages less than 18 or over 60 to get to the rural working population.  
+
+
+\begin{table}[ht]
+\caption{Summary Statistics}
+\label{table1}
+\small
+\centering
+\begin{tabular}{lccccc} \hline
+      & (1) & (2) & (3) & (4) & (5) \\
+VARIABLES & Mean & Std. Dev. & Min & Max & N \\ \hline \hline
+ &  &  &  &  &  \\
+ST & 0.115 & 0.319 & 0 & 1 & 79848\\
+SC & 0.224 & 0.417 & 0 & 1 & 79848\\
+OBC & 0.402 & 0.49 & 0 & 1 & 79848\\
+Muslim & 0.1 & 0.3 & 0 & 1 & 79848\\
+Female & 0.518 & 0.5 & 0 & 1 & 79848\\
+Female x SC/ST & 0.175 & 0.38 & 0 & 1 & 79848\\
+Female x OBC & 0.209 & 0.406 & 0 & 1 & 79848\\
+Primary Educated & 0.062 & 0.24 & 0 & 1 & 79848\\
+Primary Educated x SC/ST & 0.027 & 0.161 & 0 & 1 & 79848\\
+Primary Educated x OBC & 0.023 & 0.151 & 0 & 1 & 79848\\
+Middle Educated & 0.241 & 0.428 & 0 & 1 & 79848\\
+Middle Educated x SC/ST & 0.09 & 0.286 & 0 & 1 & 79848\\
+Middle Educated OBC & 0.101 & 0.302 & 0 & 1 & 79848\\
+Bottom 20 Percentile (Assets) & 0.218 & 0.413 & 0 & 1 & 79848\\
+Bottom 20 Percentile x SC/ST & 0.08 & 0.271 & 0 & 1 & 79848\\
+Bottom 20 Percentile x OBC & 0.092 & 0.289 & 0 & 1 & 79848\\
+Bottom 40 Percentile (Assets) & 0.425 & 0.494 & 0 & 1 & 79848\\
+Bottom 60 Percentile (Assets) & 0.621 & 0.485 & 0 & 1 & 79848\\
+Secondary Educated & 0.53 & 0.499 & 0 & 1 & 79848\\
+Post Secondary Educated & 0.161 & 0.368 & 0 & 1 & 79848\\
+MGNREGA & 0.133 & 0.34 & 0 & 1 & 79848\\
+Ln(MGNREGA Income + 1) & 1.957 & 3.563 & 0 & 11.513 & 79848\\
+\hline \hline \end{tabular}
+\end{table}
+
+
+\hyperref[table1]{Table 1} provides the summary of the variables we will be considering. 11.5\% of the respondents belong to Scheduled Tribes and 22.4\% of respondents belong to Scheduled Castes. 
+\\
+\\
+MGNREGA, \(\text{ln(MGNREGA WAGE + 1)}\) are both dummy dependent variables for the OLS estimate. MGNREGA takes value of 1 if the respondent possesses a MGNREGA card as well as has worked for more than a day in the program. \(\text{ln(MGNREGA WAGE + 1)}\) is the intensive margin of MGNREGA that we are considering. ‘\textit{ST}’ and ‘\textit{SC}’ take values of 1 if the respondent belongs to the Scheduled Tribe or Scheduled Caste respectively. ‘\textit{OBC}’ takes a value of 1 if the respondent is from Other Backward Caste. ‘\text{Female}’ is also a dummy variable which takes value of 1 if the respondent is a female. We have further taken heterogeneity by the female variable by interacting it with various caste and religious parameters to account for different demographics. ‘\textit{Primary Educated}’ takes value of 1 if the respondent is literate and completed primary education upto 5th standard. We have interacted \textit{Primary Educated} with several caste based parameters to study the heterogeneity by primary education in various caste groups. Similarly, ‘\textit{Middle Educated}’ takes value of 1 if the respondent has finished at least the 5th standard and no higher than 9th standard. \textit{Secondary Educated} takes a value of 1 if the respondent has finished at least 10th standard and no higher than 12th Standard. \textit{Post Secondary Educated} takes a value of 1 if the respondent has done any undergraduate degree/diploma or higher. ‘\textit{Bottom 20 Percentile(Assets)}’ takes the value of 1 if the respondent ranks in the bottom 20 percentile in terms of the household assets, this variables considered all forms of household asset including but not limited to Livestock holding, Land holdings, income from various external sources etc. These variables have been further interacted with various castes and religions. 
+
+\section{Empirical Framework}
+\label{empirical}
+
+To access the socio-economic group participating in MGNREGA in rural India, we will a basic multivariable regression model, furthermore we will be using a dummy dependent multivariate regression as well to see if some groups are more represented in the program and what level of participation is observed in the interplay of various socio-economic and gender groups. We will be using heterogeneity by caste in education, asset quintile and gender. The main caste group we are looking for are the Scheduled Caste and Tribe among others including Other Backward Caste and as caste dynamics also exist between we assess heterogeneity of different religious groups as well. We start with \emph{MGNREGA} dummy variable with heterogeneity by Primary and Middle school education level. 
+\\
+\\
+We apply another constraint as well in the models by allowing for regression only on the bottom 5 states in terms of poverty, these include Bihar, Jharkhand, Madhya Pradesh, Uttar Pradesh, and Chattisgarh. \\
+\\
+
+It is imperartive to note that while the caste system is conventionally associated with Hinduism, all religions in India, including Islam and Christianity, display inter-group disparity akin to a caste system and as such they inter-group dynamic will also play a role in MGNREGA's adoption (Ministry of Minority Affairs, 2009; Mosse, 2012)
+\begin{equation}
+\begin{aligned}
+\text{Y} = \beta_{0} + \beta_{1}\text{ST}+\beta_{2}\text{SC}+ \beta_{3}\text{OBC} + \beta_{4}\text{Muslim} + \beta_{5}\text{Primary Educated SC/ST}\\ + \beta_{6}\text{Primary Educated OBC} + \beta_{7}\text{Primary Educated Muslim}  +\mu_{o} \\\\
+\text{Y} = \beta_{0} + \beta_{1}\text{ST}+\beta_{2}\text{SC}+ \beta_{3}\text{OBC} + \beta_{4}\text{Muslim}+ \beta_{5}\text{Middle Educated SC/ST}\\+ \beta_{6}\text{Middle Educated OBC}+ \beta_{7}\text{Middle Educated Muslim}  +\mu_{o}
+\end{aligned}
+\label{eq1}
+\end{equation}
+\hyperref[eq1]{Equation 1} considers heterogeneity by education and caste by interacting education variables (Primary Educated and Middle Educated) with socio-economic groups (SC/ST, OBC and Muslims) on \emph{MGNREGA} and \emph{ln(MGNREGA Inc. +1)}.
+
+
+\hyperref[eq2]{Equation 2} considers heterogeneity by Assets Quintiles and caste by interacting education variables (Primary Educated and Middle Educated) with socio-economic groups (SC/ST, OBC and Muslims) on \emph{MGNREGA} and \emph{ln(MGNREGA Inc. +1)}.
+
+\begin{equation}
+\begin{aligned}
+\text{Y} = \beta_{0} + \beta_{1}\text{ST}+\beta_{2}\text{SC}+ \beta_{3}\text{OBC} + \beta_{4}\text{Muslim} + \beta_{5}\text{Bottom 20 Percentile x SC/ST}\\ + \beta_{6}\text{Bottom 20 Percentile x OBC} + \beta_{7}\text{Bottom 20 Percentile x Muslim}  +\mu_{o}
+\\\\
+\text{Y} = \beta_{0} + \beta_{1}\text{ST}+\beta_{2}\text{SC}+ \beta_{3}\text{OBC} + \beta_{4}\text{Muslim}+ \beta_{5}\text{Bottom 40 Percentile x SC/STT}\\+ \beta_{6}\text{Bottom 40 Percentile x OBC}+ \beta_{7}\text{Bottom 40 Percentile x Muslim}  +\mu_{o}
+\end{aligned}
+\label{eq2}
+\end{equation}
+
+
+\\
+\\
+
+Along with these heterogeneity, there are other additional constraints applied to obtain unbiased estimates - There is \textbf{district fixed effect} in all equation, \textbf{Errors are clustered at the district level} and \textbf{weights assigned by IHDS are used for every household} in all regression models.
+\\
+\\
+The results can be misleading due to unobserved factors that can lead to biases capable of hindering our conclusions significantly.  Hence, to avoid an estimation bias,  our regression equations above also include relevant variables to control for such unobservable factors.
+
+\section{Results}
+\label{results}
+\hyperref[tab2]{Table 2} reports on the participation by people from different social and educational backgrounds in the employment provided under MGNREGA. It reports the probability of a person possessing a MGNREGA card if they belong from a certain social and educational background. Results in column 1 presents the changes in participation rate based on an individual’s social and educational background, whereas in columns 2 and 3, along with the variables for social backgrounds, we add to the model interaction terms between different education levels and social backgrounds. We find that an individual belonging from ST is 5.2\% more likely to possess a MGNREGA card than a person from a forward caste (column 1). Similarly, individuals belonging from SC and OBC are 7.3\% and 1.5\% more likely to possess a MGNREGA card respectively. We find robust results in the cases of people from different social backgrounds in columns 2 and 3 as well. However, we notice a negative relationship between muslims and their participation rate in the employment provided under MGNREGA. On an average, muslims are 3.25\% less likely to possess a MGNREGA card than people belonging to a forward caste (column 1). This relationship is huge and statistically significant only in column 1 though. Educational backgrounds also seem to have a constant and statistically significant negative relation with the possession of a MGNREGA card. As evident from column 1, compared to the people with no educational background, primary educated people are 2.8\% less likely to possess a MGNREGA card at 5\% significance level, whereas middle, secondary and post-secondary educated people are 5.4\%, 10.8\%, and 4.7\% less likely to possess a card respectively at 1\% significance level each. This shows that as people attain higher level of education, they are less likely to require a MGNREGA card for their employment needs.
+In column 2, we see that people belonging to SC or ST and who are also primary educated are 5.73\% more likely to possess a MGNREGA card. Primary educated people belonging to OBC are 3.63\% more likely to possess a card at 5\% significance level. Similar to our results from earlier for the muslims, primary educated muslims are 2.42\% less likely to possess a card at 5\% significance level. We see similar results in the case of interaction terms between middle educated and social backgrounds in column 3. 
+\\
+\\
+We see similar results as \hyperref[tab2]{Table 2} in columns 1, 2 and 3 for social backgrounds in \hyperref[tab3]{Table 3}. People belonging to SC, ST, and OBC are more likely to possess a MGNREGA card as compared to people from a forward caste whereas muslims are less likely to possess a card. \hyperref[tab3]{Table 3} reports on the participation rate in MGNREGA employment by people coming from different economic backgrounds. As evident from column 1, people with assets in the bottom 20 percentile are 1.3\% more likely to possess a MGNREGA card than those in the top 40 percentile. This coefficient is not statistically significant though. However, people from the bottom 40 and 60 percentile are 2.7\% and 4.6\% more likely to possess a MGNREGA card with 1\% significance level. This hints towards the poor targeting by the administration of the employments provided under MGNREGA. In the bottom 60 percentile, people with the least assets in possession are comparatively less likely to possess a MGNREGA card than those with more assets. We see similar results in the case of interaction terms between asset classes and social backgrounds. People from SC/ST with bottom 20 percentile of assets are 7.3\% more likely to possess a MGNREGA card (column 2) whereas people from SC/ST with bottom 40 percentile of assets are 8\% more likely to possess a card (column 3). We have similar results for OBC and muslims as well.
+\\
+\\
+In \hyperref[tab4]{Table 4} and \hyperref[tab5]{Table 5}, we run our both specifications with the log of wages earned by people under MGNREGA as our dependent variable. In \hyperref[tab4]{Table 4}, we see that people from ST, SC, and OBC earn 174\%, 220\%, and 27\% more than people from the upper caste respectively (column 1). We see similar results in columns 2 and 3. This shows that people from the minority social classes are earning more than those from the upper caste through MGNREGA. This may very well be attributed to the fact that people belonging to the minority social groups are also economically disadvantaged and hence need the employment provided under MGNREGA. The results for muslims however are not constant or statistically significant through the three columns.
+\\
+In the educational background (column 1), we see that primary, middle, secondary, and post-secondary educated people earn 8\%, 23\%, 92\%, and 70\% less than people with no educational background. Robust to our earlier findings in \hyperref[tab2]{Table 2}, it shows that as people attain higher levels of education, they need to rely less on MGNREGA for their employment. Interaction terms between education and social backgrounds in columns 2 and 3 produce similar results, however not statistically significant.
+\\
+\\
+\hyperref[tab5]{Table 5} reports on the wages earned under MGNREGA by people coming from different economic backgrounds. We see similar results as in \hyperref[tab4]{T able 4} for the variables ST, SC, OBC, and Muslim in all the three columns of \hyperref[tab5]{Table 5}. We also see robust results when it comes to economic backgrounds as we had seen earlier in \hyperref[tab3]{Table 3}. People with bottom 20 percentile of assets on an average earn 50\% less than those with top 40 percentile of assets (column 1). The coefficient is huge and also statistically significant. This shows that people with the least assets in possession earn significantly less than those with more assets in possession even under MGNREGA. Results in columns 2 and 3 are also robust to this finding.
+
+\\
+
+\\
+We run our first specification on the poorest five states of India which have the highest percentage of people below the poverty line to check for robustness. These states are Bihar, Jharkhand, Uttar Pradesh, Chhattisgarh, and Madhya Pradesh. We find that results in \hyperref[tab6]{Table 6} are robust to our earlier results in \hyperref[tab2]{Table 2}. We find that people from SC, ST and OBC are more likely to possess a MGNREGA card than people from forward caste in these states as well. Here also the coefficients for muslims are negative and significant (column 1). We also see that as people attain higher levels of education, they are less likely to rely on MGNREGA for employment. A table for our second specification run on these five states in terms of assets possessed by people is shared in the appendix (\hyperref[tabA]{Table A}).
+
+\hyperref[tab7]{Table 7} reports on the wages earned under MGNREGA by people coming from different social and educational backgrounds in these five states. We see similar results as \hyperref[tab4]{Table 4} that people from the minority social class earn significantly higher than people from forward caste through MGNREGA. Also, people with higher educational background need to rely less on MGNREGA for employment and hence earn lesser. A table for our second specification run on these five states in terms of assets possessed by people with log of wage earned through MGNREGA as the dependent variable is shared in the appendix (\hyperref[tabB]{Table B}).
+
+In these five states, we also notice that females participate significantly lesser than males in the employment provided through MGNREGA (\hyperref[tab8]{Table 8}). Our sample set comprises of 51\% females and yet we can see that a female in these states is 9\% less likely to possess a MGNREGA card than males (column 1). The coefficient is even higher for females who belong to SC/ST categories. They are in fact 14.6\% less likely to possess a card (column 2). A similar table for log wages is shared in the appendix where the results are also very similar (\hyperref[tabC]{Table C}).
+\\
+\\
+We run our first specification and also add to the model dummy variables for the five poorest states to check for how MGNREGA is faring in these states as compared to richer states (\hyperref[tab9]{Table 9}). We find that the coefficients on these states are negative (except Chhattisgarh) and statistically significant to the 1\% significance level each. So, people from Bihar, Jharkhand, UP, and Madhya Pradesh are 10.8\%, 7.2\%, 5.3\%, and 2\%  less likely to possess a MGNREGA card respectively than people from richer states. It can not be argued that people from these states do not need MGNREGA employment. These states have the highest percentage of people under the poverty line and hence negative coefficients on these states state that MGNREGA is not able to target the correct population properly.
+\begin{table}[]
+\small
+    \centering
+    \begin{tabular}{lccc} \hline
+ & (1) & (2) & (3) \\
+VARIABLES & MGNREGA & MGNREGA & MGNREGA \\ \hline\hline
+ &  &  &  \\
+ST & 0.0517*** & 0.0818*** & 0.0835*** \\
+ & (0.0123) & (0.0123) & (0.0133) \\
+SC & 0.0727*** & 0.0956*** & 0.0971*** \\
+ & (0.0111) & (0.0125) & (0.0117) \\
+OBC & 0.0151** & 0.0271*** & 0.0245*** \\
+ & (0.0071) & (0.0077) & (0.0074) \\
+Muslim & -0.0325*** & -0.0053 & -0.0048 \\
+ & (0.0105) & (0.0107) & (0.0103) \\
+Primary Educated & -0.0279** &  &  \\
+ & (0.0114) &  &  \\
+Middle Educated & -0.0542*** &  &  \\
+ & (0.0088) &  &  \\
+Secondary Educated & -0.1077*** &  &  \\
+ & (0.0100) &  &  \\
+Post Secondary Educated & -0.0471*** &  &  \\
+ & (0.0060) &  &  \\
+Primary Educated x SC/ST &  & 0.0573*** &  \\
+ &  & (0.0174) &  \\
+Primary Educated x OBC &  & 0.0363** &  \\
+ &  & (0.0158) &  \\
+Primary Educated x Muslim &  & -0.0242** &  \\
+ &  & (0.0117) &  \\
+Middle Educated x SC/ST &  &  & 0.0149 \\
+ &  &  & (0.0135) \\
+Middle Educated OBC &  &  & 0.0214** \\
+ &  &  & (0.0085) \\
+Middle Educated Muslim &  &  & -0.0113 \\
+ &  &  & (0.0190) \\
+Constant & 0.2025*** & 0.1073*** & 0.1069*** \\
+ & (0.0088) & (0.0060) & (0.0060) \\
+ &  &  &  \\
+ \hline 
+Observations & 79,848 & 79,848 & 79,848 \\
+ R-squared & 0.1610 & 0.1447 & 0.1442 \\ 
+IHDS 2012 Weights & YES & YES & YES \\
+Cluster Error (District) & YES & YES & YES \\
+Rural & YES & YES & YES \\\hline
+\multicolumn{4}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{4}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\ \hline
+\end{tabular}
+    \caption{Regression on MGNREGA (Dummy Variable)}
+    \label{tab2}
+\end{table}
+
+
+\begin{table}[]
+\small
+
+    \centering
+    \begin{tabular}{lccc} \hline
+ & (1) & (2) & (3) \\
+VARIABLES & MGNREGA & MGNREGA & MGNREGA \\ \hline\hline
+ &  &  &  \\
+ST & 0.0819*** & 0.0682*** & 0.0485*** \\
+ & (0.0126) & (0.0127) & (0.0139) \\
+SC & 0.0977*** & 0.0832*** & 0.0634*** \\
+ & (0.0124) & (0.0117) & (0.0114) \\
+OBC & 0.0282*** & 0.0252*** & 0.0100 \\
+ & (0.0076) & (0.0077) & (0.0073) \\
+Muslim & -0.0077 & -0.0158* & -0.0284*** \\
+ & (0.0105) & (0.0091) & (0.0093) \\
+Bottom 20 Percentile (Assets) & 0.0128 &  &  \\
+ & (0.0101) &  &  \\
+Bottom 40 Percentile (Assets) & 0.0272*** &  &  \\
+ & (0.0072) &  &  \\
+Bottom 60 Percentile (Assets) & 0.0456*** &  &  \\
+ & (0.0065) &  &  \\
+Bottom 20 Percentile x SC/ST &  & 0.0734*** &  \\
+ &  & (0.0169) &  \\
+Bottom 20 Percentile x OBC &  & 0.0227** &  \\
+ &  & (0.0092) &  \\
+Bottom 20 Percentile x Muslim &  & 0.0387 &  \\
+ &  & (0.0284) &  \\
+Bottom 40 Percentile x SC/ST &  &  & 0.0804*** \\
+ &  &  & (0.0123) \\
+Bottom 40 Percentile x OBC &  &  & 0.0466*** \\
+ &  &  & (0.0077) \\
+Bottom 40 Percentile x Muslim &  &  & 0.0483** \\
+ &  &  & (0.0188) \\
+Constant & 0.0619*** & 0.1057*** & 0.1046*** \\
+ & (0.0074) & (0.0060) & (0.0060) \\
+ &  &  &  \\\hline
+Observations & 79,848 & 79,848 & 79,848 \\
+ R-squared & 0.1517 & 0.1471 & 0.1500 \\ 
+ IHDS 2012 Weights & YES & YES & YES \\
+Cluster Error (District) & YES & YES & YES \\
+Rural & YES & YES & YES \\\hline
+\multicolumn{4}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{4}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\\hline 
+\end{tabular}
+    \caption{Regression on MGNREGA (Dummy Variable)}
+    \label{tab3}
+\end{table}
+\begin{landscape}
+
+\begin{table}[]
+\small
+    \centering
+    
+\begin{tabular}{lccc} \hline
+ & (1) & (2) & (3) \\
+VARIABLES & Ln(MGNREGA Income + 1) & Ln(MGNREGA Income + 1) & Ln(MGNREGA Income + 1) \\ \hline \hline
+ &  &  &  \\
+ST & 1.0091*** & 1.2382*** & 1.2323*** \\
+ & (0.1593) & (0.1588) & (0.1608) \\
+SC & 1.1659*** & 1.3478*** & 1.3396*** \\
+ & (0.1444) & (0.1583) & (0.1550) \\
+OBC & 0.2447** & 0.3469*** & 0.2983*** \\
+ & (0.0994) & (0.1061) & (0.1003) \\
+Muslim & -0.0348 & 0.1586 & 0.1412 \\
+ & (0.1569) & (0.1637) & (0.1342) \\
+Primary Educated & -0.0762 &  &  \\
+ & (0.1559) &  &  \\
+Middle Educated & -0.2080** &  &  \\
+ & (0.1053) &  &  \\
+Secondary Educated & -0.6513*** &  &  \\
+ & (0.1079) &  &  \\
+Post Secondary Educated & -0.5305*** &  &  \\
+ & (0.1020) &  &  \\
+Primary Educated x SC/ST &  & 0.3599 &  \\
+ &  & (0.2361) &  \\
+Primary Educated x OBC &  & 0.1717 &  \\
+ &  & (0.1777) &  \\
+Primary Educated x Muslim &  & -0.0229 &  \\
+ &  & (0.2503) &  \\
+Middle Educated x SC/ST &  &  & 0.1604 \\
+ &  &  & (0.1722) \\
+Middle Educated OBC &  &  & 0.2481** \\
+ &  &  & (0.1152) \\
+Middle Educated Muslim &  &  & 0.0163 \\
+ &  &  & (0.3008) \\
+Constant & 2.1572*** & 1.5480*** & 1.5459*** \\
+ & (0.1035) & (0.0808) & (0.0806) \\
+ &  &  &  \\ \hline
+Observations & 79,848 & 79,848 & 79,848 \\
+ R-squared & 0.2961 & 0.2866 & 0.2868 \\ 
+ IHDS 2012 Weights & YES & YES & YES \\
+Cluster Error (District) & YES & YES & YES \\
+Rural & YES & YES & YES \\\hline
+\multicolumn{4}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{4}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\\hline
+\end{tabular}
+
+    \caption{Regression on Ln(MGREGA Inc. + 1)}
+    \label{tab4}
+\end{table}
+
+\end{landscape}
+\begin{landscape}
+\begin{table}[]
+\small
+    \centering
+    \begin{tabular}{lccc} \hline
+ & (1) & (2) & (3) \\
+VARIABLES & Ln(MGNREGA Income + 1) & Ln(MGNREGA Income + 1) & Ln(MGNREGA Income + 1) \\ \hline\hline
+ &  &  &  \\\
+ST & 1.2383*** & 1.3286*** & 1.2564*** \\
+ & (0.1589) & (0.1700) & (0.1818) \\
+SC & 1.3609*** & 1.4367*** & 1.3684*** \\
+ & (0.1559) & (0.1522) & (0.1604) \\
+OBC & 0.3461*** & 0.4210*** & 0.3386*** \\
+ & (0.1033) & (0.1060) & (0.1113) \\
+Muslim & 0.1488 & 0.1785 & -0.0445 \\
+ & (0.1544) & (0.1566) & (0.1417) \\
+Bottom 20 Percentile (Assets) & -0.4080*** &  &  \\
+ & (0.1024) &  &  \\
+Bottom 40 Percentile (Assets) & 0.0367 &  &  \\
+ & (0.0790) &  &  \\
+Bottom 60 Percentile (Assets) & 0.4110*** &  &  \\
+ & (0.0804) &  &  \\
+Bottom 20 Percentile x SC/ST &  & -0.2416 &  \\
+ &  & (0.1823) &  \\
+Bottom 20 Percentile x OBC &  & -0.2690** &  \\
+ &  & (0.1127) &  \\
+Bottom 20 Percentile x Muslim &  & -0.1108 &  \\
+ &  & (0.2213) &  \\
+Bottom 40 Percentile x SC/ST &  &  & 0.0343 \\
+ &  &  & (0.1381) \\
+Bottom 40 Percentile x OBC &  &  & 0.0556 \\
+ &  &  & (0.0956) \\
+Bottom 40 Percentile x Muslim &  &  & 0.4286** \\
+ &  &  & (0.2151) \\
+Constant & 1.3663*** & 1.5518*** & 1.5432*** \\
+ & (0.0904) & (0.0805) & (0.0807) \\
+ &  &  &  \\\hline
+Observations & 79,848 & 79,848 & 79,848 \\
+R-squared & 0.2893 & 0.2870 & 0.2867 \\ 
+IHDS 2012 Weights & YES & YES & YES \\
+Cluster Error (District) & YES & YES & YES \\
+Rural & YES & YES & YES \\\hline
+\multicolumn{4}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{4}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\\hline
+\end{tabular}
+    \caption{Regression in Ln(MGNREGA Inc. + 1)}
+    \label{tab5}
+    \end{table}
+    
+\end{landscape}
+
+
+\newpage
+\begin{table}[]
+\small
+
+    \centering
+    \begin{tabular}{lccc} \hline
+ & (1) & (2) & (3) \\
+VARIABLES & MGNREGA & MGNREGA & MGNREGA \\ \hline\hline
+ &  &  &  \\
+ST & 0.0791*** & 0.1175*** & 0.1094*** \\
+ & (0.0249) & (0.0253) & (0.0268) \\
+SC & 0.1244*** & 0.1566*** & 0.1478*** \\
+ & (0.0182) & (0.0207) & (0.0188) \\
+OBC & 0.0341*** & 0.0530*** & 0.0480*** \\
+ & (0.0080) & (0.0087) & (0.0087) \\
+Muslim & -0.0406*** & -0.0161 & -0.0066 \\
+ & (0.0120) & (0.0115) & (0.0132) \\
+Primary Educated & -0.0178 &  &  \\
+ & (0.0189) &  &  \\
+Middle Educated & -0.0200 &  &  \\
+ & (0.0124) &  &  \\
+Secondary Educated & -0.0740*** &  &  \\
+ & (0.0122) &  &  \\
+Post Secondary Educated & -0.0490*** &  &  \\
+ & (0.0096) &  &  \\
+Primary Educated x SC/ST &  & 0.0298 &  \\
+ &  & (0.0355) &  \\
+Primary Educated x OBC &  & 0.0285 &  \\
+ &  & (0.0202) &  \\
+Primary Educated x Muslim &  & -0.0462** &  \\
+ &  & (0.0224) &  \\
+Middle Educated x SC/ST &  &  & 0.0389 \\
+ &  &  & (0.0280) \\
+Middle Educated OBC &  &  & 0.0243** \\
+ &  &  & (0.0115) \\
+Middle Educated Muslim &  &  & -0.0392** \\
+ &  &  & (0.0186) \\
+Constant & 0.1357*** & 0.0667*** & 0.0664*** \\
+ & (0.0114) & (0.0080) & (0.0081) \\\hline
+ &  &  &  \\
+Observations & 22,697 & 22,697 & 22,697 \\
+ R-squared & 0.1596 & 0.1478 & 0.1487 \\
+IHDS 2012 Weights & YES & YES & YES \\
+Cluster Error (District) & YES & YES & YES \\
+Rural & YES & YES & YES \\ \hline
+\multicolumn{4}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{4}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\\hline
+\end{tabular}
+    \caption{Regression on MGNREGA (Dummy Variable) (FOR POOR STATES)}
+    \label{tab6}
+\end{table}
+\begin{landscape}
+\begin{table}[]
+\small
+    \centering
+    \begin{tabular}{lccc} \hline
+ & (1) & (2) & (3) \\
+VARIABLES & Ln(MGNREGA Income + 1) & Ln(MGNREGA Income + 1) & Ln(MGNREGA Income + 1) \\ \hline\hline
+ &  &  &  \\
+ST & 1.6316*** & 1.8885*** & 1.8714*** \\
+ & (0.2774) & (0.2724) & (0.2744) \\
+SC & 1.8583*** & 2.0900*** & 2.0491*** \\
+ & (0.2321) & (0.2727) & (0.2577) \\
+OBC & 0.5873*** & 0.7514*** & 0.6790*** \\
+ & (0.1427) & (0.1553) & (0.1497) \\
+Muslim & -0.2751 & -0.0563 & -0.0655 \\
+ & (0.2197) & (0.2230) & (0.1938) \\
+Primary Educated & 0.0126 &  &  \\
+ & (0.3185) &  &  \\
+Middle Educated & 0.0014 &  &  \\
+ & (0.1647) &  &  \\
+Secondary Educated & -0.3742** &  &  \\
+ & (0.1639) &  &  \\
+Post Secondary Educated & -0.6716*** &  &  \\
+ & (0.1703) &  &  \\
+Primary Educated x SC/ST &  & 0.5434 &  \\
+ &  & (0.5809) &  \\
+Primary Educated x OBC &  & 0.0685 &  \\
+ &  & (0.3004) &  \\
+Primary Educated x Muslim &  & -0.5736 &  \\
+ &  & (0.3591) &  \\
+Middle Educated x SC/ST &  &  & 0.2578 \\
+ &  &  & (0.3532) \\
+Middle Educated OBC &  &  & 0.2638* \\
+ &  &  & (0.1362) \\
+Middle Educated Muslim &  &  & -0.1570 \\
+ &  &  & (0.4009) \\
+Constant & 1.3621*** & 0.9217*** & 0.9223*** \\
+ & (0.1531) & (0.1328) & (0.1308) \\\hline
+ &  &  &  \\
+Observations & 22,697 & 22,697 & 22,697 \\
+ R-squared & 0.2758 & 0.2680 & 0.2681 \\ 
+ IHDS 2012 Weights & YES & YES & YES \\
+Cluster Error (District) & YES & YES & YES \\
+Rural & YES & YES & YES \\\hline
+\multicolumn{4}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{4}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\ \hline
+\end{tabular}
+    \caption{Regression on Ln(MGNREGA Inc. + 1) (FOR POOR STATES)}
+    \label{tab7}
+\end{table}
+\end{landscape}
+\newpage
+\begin{table}[]
+\small
+    \centering
+    \begin{tabular}{lcc} \hline
+ & (1) & (2) \\
+VARIABLES & MGNREGA & MGNREGA \\ \hline\hline
+ &  &  \\
+ST & 0.1222*** & 0.1984*** \\
+ & (0.0242) & (0.0273) \\
+SC & 0.1577*** & 0.2341*** \\
+ & (0.0200) & (0.0239) \\
+OBC & 0.0554*** & 0.0909*** \\
+ & (0.0089) & (0.0115) \\
+Muslim & -0.0174 & -0.0054 \\
+ & (0.0110) & (0.0177) \\
+ Female & -0.0908*** &  \\
+ & (0.0078) &  \\
+Female x SC/ST &  & -0.1459*** \\
+ &  & (0.0158) \\
+Female x OBC &  & -0.0682*** \\
+ &  & (0.0100) \\
+Female x Muslim &  & -0.0235 \\
+ &  & (0.0169) \\
+
+Constant & 0.1145*** & 0.0668*** \\
+ & (0.0084) & (0.0081) \\
+ &  &  \\
+Observations & 22,697 & 22,697 \\
+ R-squared & 0.1644 & 0.1672 \\
+ IHDS 2012 Weights & YES & YES\\
+Cluster Error (District) & YES & YES\\
+Rural & YES & YES\\\hline
+\multicolumn{3}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{3}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\\hline
+\end{tabular}
+    \caption{Regression on MGNREGA (Dummy Variable) (FOR POOR STATES)}
+    \label{tab8}
+\end{table}
+\begin{table}[]
+\small
+    \centering
+    \begin{tabular}{lcc} \hline
+ & (1) & (2) \\
+VARIABLES & MGNREGA & MGNREGA \\ \hline \hline
+ &  &  \\
+ST & 0.0939*** & 0.0639*** \\
+ & (0.0047) & (0.0048) \\
+SC & 0.0970*** & 0.0968*** \\
+ & (0.0038) & (0.0038) \\
+OBC & 0.0207*** & 0.0218*** \\
+ & (0.0032) & (0.0032) \\
+Muslim & -0.0327*** & -0.0244*** \\
+ & (0.0043) & (0.0042) \\
+Primary Educated & -0.0169*** & -0.0365*** \\
+ & (0.0056) & (0.0055) \\
+Middle Educated & -0.0498*** & -0.0671*** \\
+ & (0.0038) & (0.0038) \\
+Secondary Educated & -0.1170*** & -0.1302*** \\
+ & (0.0036) & (0.0036) \\
+Post Secondary Educated & -0.0398*** & -0.0393*** \\
+ & (0.0038) & (0.0038) \\
+Bihar &  & -0.1079*** \\
+ &  & (0.0047) \\
+Jharkhand &  & -0.0723*** \\
+ &  & (0.0060) \\
+Uttar Pradesh &  & -0.0525*** \\
+ &  & (0.0035) \\
+Chattisgarh &  & 0.2446*** \\
+ &  & (0.0069) \\
+Madhya Pradesh &  & -0.0199*** \\
+ &  & (0.0055) \\
+Constant & 0.1915*** & 0.2187*** \\
+ & (0.0040) & (0.0041) \\
+ &  &  \\\hline
+Observations & 79,848 & 79,848 \\
+ R-squared & 0.0449 & 0.0717 \\ 
+  IHDS 2012 Weights & YES & YES\\
+Cluster Error (District) & NO & NO\\
+Rural & YES & YES\\\hline
+\multicolumn{3}{c}{ Standard errors in parentheses} \\
+\multicolumn{3}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\\hline
+\end{tabular}
+    \caption{Regression on MGNREGA (Dummy Variable) }
+    \label{tab9}
+\end{table}
+
+\newpage
+\section{Conclusion}
+\label{conclusion}
+Evident from our findings, MGNREGA seems to be lacking heavily in terms of targeting and upliftment of the backward sections of the society. There can be numerous explanations for this. As of 2018, MGNREGA wage rates of 17 states were less than the corresponding state minimum wages. Low wage rates may have resulted in lack of interest among workers in working for MGNREGA schemes and made way for contractors and middle men to take control locally. It is also often found in several surveys that there is a payment delay for the works done under MGNREGA schemes. As seen in Table 8, women are less likely to participate in the employment offered under MGNREGA schemes. This shows that this program also fails to enhance the agency of women in the households. A program as such is supposed to enhance the independence and bargaining power of women in the society which MGNREGA clearly fails to deliver upon. The five states with the most percentage of people under the poverty line have lesser participation in employment under MGNREGA schemes as compared to the richer states. One major explanation for this can be the state capacity - resources allocated to states are often a function of the state's ability to spend them; richer states have better administrative capacities to effectively implement schemes. However, this can not deny the fact that the poorer states can offer the most employment to its people because these states require to build  more infrastructure to develop themselves and hence more employment options for people in the agricultural and construction sector. 
+
+\newpage 
+\section{Citation}
+\label{citation}
+\begin{enumerate}
+    \item Aggarwal (2016). The MGNREGA Crisis: Insights from Jharkhand. Economic and Political Weekly, Vol. 51, Issue No. 22, 28 May, 2016.
+    \item Bhattacharyya, Rituparna and Vauquline, Polly, A Mirage or a Rural Life Line? Analysing the Impact of Mahatma Gandhi Rural Employment Guarantee Act on Women Beneficiaries of Assam (May 09, 2013). Journal Space and Culture, India, Volume 1, Issue 1, 83-101, 2013 , Available at SSRN: https://ssrn.com/abstract=2400447
+    \item Dasgupta, A. (2013), Can the major public works policy buffer negative shocks in early childhood? Evidence from Andhra Pradesh, India, Young Lives Working paper No. 112, December. Oxford: Young Lives, Oxford Department of International Development (ODID), University of Oxford.
+    \item Joshi, O., Desai, S., Vanneman, R. & Dubey, A. (2014). MGNREGA: employer of the last resort. Working paper 2014-1, December. New Delhi: India Human Development Survey, National Council of Applied Economic Research and University of Maryland.
+    \item Kannan and Raveendran (2012). Counting and Profiling the Missing Labour Force. Economic and Political Weekly, Vol. 47, Issue No. 06, 11 Feb, 2012.
+    \item Khera, R. & Nayak, N. (2009). Woman workers and perceptions of the NREGA. Economic and Political Weekly, 44 (43), 49-57
+    \item Liu, Y. & Barett, C. (2012). Heterogeneous pro-poor targeting in India’s Mahatma Gandhi national rural employment guarantee scheme. Delhi: International Food Policy Research Institute
+    \item Mani, Subha, et al. (2013), Impact of the NREGS on Schooling and Intellectual Human Capital, Proceedings
+    of the International Conference on MGNREGA, IGIDR, Mumbai.
+    \item Mosse, David. “The Saint in the Banyan Tree: Christianity and Caste Society in India.”, University of California Press, Oct. 2012. 
+
+    \item Ravi, S. & Engler, M. (2015). Workfare as an Effective Way to Fight Poverty: The Case of India’s NREGS. World Development, 67, 57-71.
+    \item Sharma, Akhilesh Kumar and Sarma, Atul and Kaur, Charanjit and Tayal, Deeksha, Macro-Economic Impact of MGNREGA in India: An Analysis in CGE Modeling Framework (February 1, 2017). Partnership for Economic Policy Working Paper No. 2017-11, http://dx.doi.org/10.2139/ssrn.3163659
+    \item Sharma, A.K., Saluja, M. R., & Sarma, A. (2015). Economic impact of social protection programmes in India: an illustrative exercise in social accounting matrix framework. SARNET Working paper 1/2015. New Delhi: Institute for Human Development.
+    \item Sharma, A.K., Saluja, M. R., & Sarma, A. (2016). Macroeconomic impact of social protection programmes in India. Economic and Political Weekly, 51 (24), 121-126.
+
+
+
+
+
+
+
+
+
+
+
+\end{enumerate}
+\newpage
+\section{Appendix}
+\label{appendix}
+\begin{table}[]
+\small
+    \centering
+    \begin{tabular}{lccc} \hline
+ & (1) & (2) & (3) \\
+VARIABLES & MGNREGA & MGNREGA & MGNREGA \\ \hline
+ &  &  &  \\
+ST & 0.1172*** & 0.0946*** & 0.0787*** \\
+ & (0.0243) & (0.0243) & (0.0286) \\
+SC & 0.1525*** & 0.1303*** & 0.1125*** \\
+ & (0.0204) & (0.0185) & (0.0178) \\
+OBC & 0.0546*** & 0.0456*** & 0.0239*** \\
+ & (0.0088) & (0.0084) & (0.0088) \\
+Muslim & -0.0216* & -0.0172 & -0.0209* \\
+ & (0.0111) & (0.0119) & (0.0107) \\
+Bottom 20 Percentile (Assets) & 0.0281* &  &  \\
+ & (0.0144) &  &  \\
+Bottom 40 Percentile (Assets) & 0.0235* &  &  \\
+ & (0.0124) &  &  \\
+Bottom 60 Percentile (Assets) & 0.0285*** &  &  \\
+ & (0.0098) &  &  \\
+Bottom 20 Percentile x SC/ST &  & 0.0810*** &  \\
+ &  & (0.0277) &  \\
+Bottom 20 Percentile x OBC &  & 0.0330** &  \\
+ &  & (0.0133) &  \\
+Bottom 20 Percentile x Muslim &  & -0.0109 &  \\
+ &  & (0.0168) &  \\
+Bottom 40 Percentile x SC/ST &  &  & 0.0728*** \\
+ &  &  & (0.0211) \\
+Bottom 40 Percentile x OBC &  &  & 0.0571*** \\
+ &  &  & (0.0118) \\
+Bottom 40 Percentile x Muslim &  &  & 0.0016 \\
+ &  &  & (0.0179) \\
+Constant & 0.0242** & 0.0659*** & 0.0658*** \\
+ & (0.0118) & (0.0082) & (0.0082) \\
+ &  &  &  \\
+Observations & 22,697 & 22,697 & 22,697 \\
+ R-squared & 0.1540 & 0.1521 & 0.1536 \\ 
+  IHDS 2012 Weights & YES & YES & YES \\
+Cluster Error (District) & YES & YES & YES \\
+Rural & YES & YES & YES \\\hline
+\multicolumn{4}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{4}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
+\end{tabular}
+    \caption{Regression on MGNREGA}
+    \label{tabA}
+\end{table} 
+
+\begin{landscape}
+\begin{table}[]
+\small
+    \centering
+    \begin{tabular}{lccc} \hline
+ & (1) & (2) & (3) \\
+VARIABLES & Ln(MGNREGA Income + 1) & Ln(MGNREGA Income + 1) & Ln(MGNREGA Income + 1) \\ \hline
+ &  &  &  \\
+ST & 1.8095*** & 1.9201*** & 1.9766*** \\
+ & (0.2610) & (0.2707) & (0.3018) \\
+SC & 2.0375*** & 2.1437*** & 2.1923*** \\
+ & (0.2583) & (0.2496) & (0.2693) \\
+OBC & 0.7332*** & 0.8212*** & 0.6507*** \\
+ & (0.1601) & (0.1624) & (0.1748) \\
+Muslim & -0.1068 & -0.0653 & -0.2121 \\
+ & (0.2070) & (0.2353) & (0.1949) \\
+Bottom 20 Percentile (Assets) & -0.3240** &  &  \\
+ & (0.1426) &  &  \\
+Bottom 40 Percentile (Assets) & 0.0441 &  &  \\
+ & (0.1413) &  &  \\
+Bottom 60 Percentile (Assets) & 0.3389*** &  &  \\
+ & (0.1274) &  &  \\
+Bottom 20 Percentile x SC/ST &  & -0.2516 &  \\
+ &  & (0.2857) &  \\
+Bottom 20 Percentile x OBC &  & -0.2684* &  \\
+ &  & (0.1593) &  \\
+Bottom 20 Percentile x Muslim &  & -0.0875 &  \\
+ &  & (0.2707) &  \\
+Bottom 40 Percentile x SC/ST &  &  & -0.2018 \\
+ &  &  & (0.2378) \\
+Bottom 40 Percentile x OBC &  &  & 0.2014 \\
+ &  &  & (0.1569) \\
+Bottom 40 Percentile x Muslim &  &  & 0.2218 \\
+ &  &  & (0.3023) \\
+Constant & 0.7185*** & 0.8934*** & 0.8890*** \\
+ & (0.1917) & (0.1387) & (0.1399) \\
+ &  &  &  \\
+Observations & 44,454 & 44,454 & 44,454 \\
+ R-squared & 0.2434 & 0.2421 & 0.2420 \\ 
+   IHDS 2012 Weights & YES & YES & YES \\
+Cluster Error (District) & YES & YES & YES \\
+Rural & YES & YES & YES \\\hline
+\multicolumn{4}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{4}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
+\end{tabular}
+    \caption{Regression on Ln(MGNREGA Income + 1)}
+    \label{tabB}
+\end{table}
+\end{landscape}
+
+\begin{table}[]
+    \centering
+    \begin{tabular}{lcc} \hline
+ & (1) & (2) \\
+VARIABLES & Ln(MGNREGA Income + 1) & Ln(MGNREGA Income + 1) \\ \hline
+ &  &  \\
+ST & 1.8472*** & 1.8949*** \\
+ & (0.2583) & (0.2612) \\
+SC & 2.0685*** & 2.1152*** \\
+ & (0.2613) & (0.2593) \\
+OBC & 0.7567*** & 0.7757*** \\
+ & (0.1586) & (0.1587) \\
+Muslim & -0.0952 & -0.0698 \\
+ & (0.2106) & (0.1895) \\
+Female & -0.0568 &  \\
+ & (0.0379) &  \\
+Female x SC/ST &  & -0.0932 \\
+ &  & (0.0720) \\
+Female x OBC &  & -0.0382 \\
+ &  & (0.0485) \\
+Female x Muslim &  & -0.0490 \\
+ &  & (0.1007) \\
+
+Constant & 0.9179*** & 0.8893*** \\
+ & (0.1435) & (0.1385) \\
+ &  &  \\
+Observations & 44,454 & 44,454 \\
+ R-squared & 0.2412 & 0.2412 \\ 
+ IHDS 2012 Weights & YES & YES\\
+Cluster Error (District) & NO & NO\\
+Rural & YES & YES\\\hline
+\multicolumn{3}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{3}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
+\end{tabular}
+    \caption{Regression on Ln(MGNREGA Inc. + 1)}
+    \label{tabC}
+\end{table}
+
+\end{document}
